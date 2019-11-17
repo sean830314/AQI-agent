@@ -1,0 +1,7 @@
+influx_setting:
+  host: "localhost"
+  port: "8086"
+  user: "admin"
+  password: "adminpass"
+  dbname: "aqi"
+  measurement:  "aqi_metric"

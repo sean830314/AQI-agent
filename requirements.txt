@@ -1,0 +1,3 @@
+docker==3.5.1
+influxdb==5.2.2
+PyYAML==5.1.2

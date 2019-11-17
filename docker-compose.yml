@@ -1,0 +1,11 @@
+
+version: '3'
+services:
+  influxdb:
+      ports:
+      - "8086:8086"
+      image: "influxdb"
+  aqi-agent:
+      depends_on:
+      - influxdb
+      image: "ekko771/aqi-agent:v1"
