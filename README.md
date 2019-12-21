@@ -6,7 +6,7 @@ AQI-Agent is a crawler engine that collects AQI data from government open data p
 
 1. Clone AQi-agent repository
     ```shell
-    git clone https://github.com/ekko771/AQI-agent.git
+    git clone https://github.com/sean830314/AQI-agent.git
     ```
 2. setting your config file to etc
     ```shell
@@ -25,7 +25,7 @@ AQI-Agent is a crawler engine that collects AQI data from government open data p
 2. Execute build command
 
     ```shell
-    docker build -t ekko771/aqi-agent:v1 .
+    docker build -t sean830314/aqi-agent:v1 .
     ```
 ## Local Development with Docker Compose
 
